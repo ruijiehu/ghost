@@ -1,0 +1,64 @@
+.clearfix:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  *zoom: 1;
+}
+
+.content-page {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+/*滚动条整体部分*/
+.mytable-scrollbar ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+/*滚动条的轨道*/
+.mytable-scrollbar ::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+/*滚动条里面的小方块，能向上向下移动*/
+.mytable-scrollbar ::-webkit-scrollbar-thumb {
+  background-color: #bfbfbf;
+  border-radius: 5px;
+  border: 1px solid #f1f1f1;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.mytable-scrollbar ::-webkit-scrollbar-thumb:hover {
+  background-color: #a8a8a8;
+}
+.mytable-scrollbar ::-webkit-scrollbar-thumb:active {
+  background-color: #787878;
+}
+/*边角，即两个滚动条的交汇处*/
+.mytable-scrollbar ::-webkit-scrollbar-corner {
+  background-color: #ffffff;
+}
+
+.szcs-hide {
+  display: none;
+}
+
+.el-table {
+  font-size: 16px !important;
+}
+
+.el-table th {
+  font-size: 18px !important;
+  background: #eff5fe !important;
+}
+.swal2-container {
+  z-index: 3010 !important;
+}
+.el-message {
+  z-index: 3010 !important;
+}
+.el-dialog__title {
+  font-weight: bold;
+}
